@@ -17,6 +17,9 @@ To run it:
   ```
   192.168.56.20  foo.com
   ```
+  
+5. Import the minica.crt certificate into your browser (in Firefox: Settings > Certificates > View Certificates > Import) so that
+   the provided SSL certificate is trusted.
 
 5. Visit http://foo.com to see the site. The first time you access the site, it 
    will return HTTP/2. Refresh the page and it will be HTTP/3.
